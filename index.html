@@ -1,42 +1,13 @@
-<div id="topBar" class="insetShadow">
-<div style="float: left">
-<span>
-<img id="settingsButton" class="hoverPointer" style="position: relative; top: 4px; padding-left: 2px;" src="/images/settings.gif" alt="settings">
-<span style="padding-left: 2px; padding-right: 2px;">|</span>
-<img id="printButton" class="hoverPointer" style="position: relative; top: 4px; padding-left: 2px;" src="/images/print.png" alt="print">
-<span style="padding-left: 2px; padding-right: 2px;">|</span>
-<span style="top: 4px;"><a href="#" id="encodeForForum">Encode</a></span>
-for
-<a style="top: 4px;" href="/forum" target="_blank">Forum</a>
-<span style="padding-left: 2px; padding-right: 2px;">|</span>
-<span><a href="forum/showthread.php?tid=24" target="_blank">Donate</a></span>
-</span>
-<div id="CurrentStoryName" style="margin: 2px 0 0 4px">
-No active story.
-</div>
-</div>
-<div style="float: right">
-<div style="text-align: right; padding-top: 2px">
-<span id="loggedInDisplaySpan" style="display: none;">
-<span id="greetingSpan"></span>
-</span>
-<span id="notLoggedInDisplaySpan" style="">
-<span><a href="/forum/index.php" target="_blank">Log in to save or load</a></span>
-<img class="hoverPointer" id="refreshLoginButton" style="vertical-align:middle; padding-left: 4px; padding-right: 2px; margin-bottom: 1px;" src="images/refresh.png" alt="Refresh login check">
-</span>
-<span>
-<span style="padding-left: 2px; padding-right: 2px;">|</span>
-<a href="/forum/showthread.php?tid=7" target="_blank"><img id="helpButton" style="vertical-align:middle; padding-right: 2px; margin-bottom: 1px;" src="images/help.png" alt="help"></a>
-<span style="padding-left: 2px; padding-right: 2px;">|</span>
-<img class="hoverPointer" id="notesButton" style="vertical-align:middle; padding-right: 2px; margin-bottom: 1px;" src="/images/notes.png" alt="notes">
-</span>
-</div>
-<div id="StoryManagementDiv" style="margin-right: 4px; display: none;">
-<span id="saveStorySpan"><a href="#" id="saveStory">Save Story</a></span>
-<span style="padding-left: 2px; padding-right: 2px;">|</span>
-<span id="loadActiveStorySpan"><a href="#" id="LoadActiveStory">Load Active</a></span>
-<span style="padding-left: 2px; padding-right: 2px;">|</span>
-<span><a href="story-manager/index.php" target="_top" id="storyManager" onclick="return confirm('Unsaved changes will be lost.  Are you sure?')">Story Manager</a></span>
-</div>
-</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <textarea id="message" rows="5" cols="30"></textarea>
+
+    <button id="btn">Append text</button>
+
+    <script src="index.js"></script>
+  </body>
