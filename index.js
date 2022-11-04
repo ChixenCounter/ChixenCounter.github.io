@@ -17,5 +17,5 @@ const btn = document.getElementById('btn');
 
 // ✅ Append text on button click
 btn.addEventListener('click', function handleClick() {
-  textarea.value += random_item();
+  textarea.value += random_item(items);
 });
