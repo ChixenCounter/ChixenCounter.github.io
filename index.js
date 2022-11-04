@@ -11,11 +11,11 @@ var items = [254, 45, 212, 365, 2543];
 const textarea = document.getElementById('message');
 
 // ✅ Append text
-textarea.value += 'Appended text';
+textarea.value += 'New';
 
 const btn = document.getElementById('btn');
 
 // ✅ Append text on button click
 btn.addEventListener('click', function handleClick() {
-  textarea.value += items;
+  textarea.value += random_item();
 });
